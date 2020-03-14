@@ -1,0 +1,22 @@
+@import '_partials/reset.scss',
+        '_partials/variables.scss',
+        '_partials/font.scss',
+        // the below partials contain some comments and affect the entire site – meaning styles created in the fonts.scss will affect all the pages on the website
+    // ---------------------------------------------
+        // while the below partials contain no comments and are designed to operate independently from other partials — meaning styles made in header.scss will only affect the header section
+        '_partials/header.scss',
+        '_partials/main.scss',
+        '_partials/footer.scss';
+
+// Design Rules: I like the idea of design rules and standards, but I didn't actually follow any constructing this site :(
+
+// Below is what a section break looks like:
+
+//**************************************************
+/////// Loosely Followed Design Rules Below //////////
+//**************************************************
+
+
+// #1. All elements receive their own media queries
+// #2. All box spacings below viewport width 1200 will use pre-set variables based on viewport width.
+// #3. Each section of the webpage will have its own partial, and each web page would have its own folder of partials – should this web-site have more than one web-page, which, I know, it doesn't haha (yes, I believe colloquial comments are professional)

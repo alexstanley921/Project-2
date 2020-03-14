@@ -1,0 +1,82 @@
+// This partial is only for importing fonts, nothing else
+
+@import url('https://fonts.googleapis.com/css?family=Jaldi|Oswald&display=swap');
+
+// Variables for Fonts
+$h-font: 'Oswald', sans-serif;
+$p-font: 'Jaldi', sans-serif;
+
+//**************************************************
+/////////////////// Declarations ///////////////////
+//**************************************************
+
+h1, h2, h3, a {
+  font-family: $h-font;
+}
+
+h1 {
+  font-size: 10vw;
+
+  @media (min-width: $media-tablet) {
+    font-size: 4vw;
+  }
+
+  @media (min-width: $media-desktop) {
+    font-size: 2em;
+  }
+}
+
+h2 {
+  font-size: 6vw;
+
+  @media (min-width: $media-tablet) {
+    font-size: 3vw;
+  }
+
+  @media (min-width: $media-desktop) {
+    font-size: 1.5em;
+  }
+}
+
+h3 {
+  font-size: 5vw;
+
+  @media (min-width: $media-tablet) {
+    font-size: 2.5vw;
+  }
+
+  @media (min-width: $media-desktop) {
+    font-size: 1.5em;
+  }
+}
+
+p {
+  font-family: $p-font;
+  font-size: 5.5vw;
+  text-align: justify;
+
+  @media (min-width: $media-tablet) {
+    font-size: 2.25vw;
+  }
+
+  @media (min-width: $media-desktop) {
+    font-size: 1.5em;
+  }
+}
+
+footer {
+  a {
+    font-family: $h-font;
+    font-size: 5.5vw;
+
+    @media (min-width: $media-tablet) {
+      font-size: 2.25vw;
+    }
+
+    @media (min-width: $media-desktop) {
+      font-size: 1.5em;
+    }
+  }
+
+
+}

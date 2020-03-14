@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css?family=Jaldi|Oswald&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+  text-decoration: none;
+  list-style: none; }
+
+h1, h2, h3 {
+  font-family: "Oswald", sans-serif; }
+
+h1 {
+  font-size: 10vw; }
+  @media (min-width: 758px) {
+    h1 {
+      font-size: 4vw; } }
+  @media (min-width: 1024px) {
+    h1 {
+      font-size: 2em; } }
+
+h2 {
+  font-size: 6vw; }
+  @media (min-width: 758px) {
+    h2 {
+      font-size: 3vw; } }
+  @media (min-width: 1024px) {
+    h2 {
+      font-size: 1.5em; } }
+
+h3 {
+  font-size: 5vw; }
+  @media (min-width: 758px) {
+    h3 {
+      font-size: 2.5vw; } }
+  @media (min-width: 1024px) {
+    h3 {
+      font-size: 1.5em; } }
+
+p {
+  font-family: "Jaldi", sans-serif;
+  font-size: 5.5vw;
+  text-align: justify; }
+  @media (min-width: 758px) {
+    p {
+      font-size: 2.25vw; } }
+  @media (min-width: 1024px) {
+    p {
+      font-size: 1.5em; } }
+
+footer li {
+  font-family: "Oswald", sans-serif;
+  font-size: 5.5vw; }
+  @media (min-width: 758px) {
+    footer li {
+      font-size: 2.25vw; } }
+  @media (min-width: 1024px) {
+    footer li {
+      font-size: 1.5em; } }
+
+header {
+  background: lightgrey;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap; }
+  @media (min-width: 758px) {
+    header {
+      padding-left: 10vw;
+      padding-right: 10vw; } }
+  @media (min-width: 1024px) {
+    header {
+      padding-top: 2.5vw;
+      text-align: center; } }
+  header .header-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+    @media (min-width: 1024px) {
+      header .header-content {
+        max-width: 1200px;
+        align-items: flex-start; } }
+  header h1 {
+    text-align: center;
+    margin-top: 10vw;
+    margin-bottom: 10vw; }
+    @media (min-width: 758px) {
+      header h1 {
+        width: 100%;
+        margin-top: 5vw;
+        margin-bottom: 2.5vw; } }
+    @media (min-width: 1024px) {
+      header h1 {
+        margin: 0;
+        width: auto; } }
+
+.header-nav {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10vw; }
+  @media (min-width: 758px) {
+    .header-nav {
+      display: flex;
+      justify-content: space-around;
+      width: 50%;
+      margin-bottom: 5vw; } }
+  @media (min-width: 1024px) {
+    .header-nav {
+      width: 35%;
+      height: 3em;
+      margin-left: auto;
+      margin-bottom: 2.5vw;
+      justify-content: space-between;
+      align-items: center; } }
+  .header-nav a {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 80%;
+    height: 10vw;
+    margin-bottom: 2.5vw; }
+    @media (min-width: 758px) {
+      .header-nav a {
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0);
+        margin: 0;
+        width: auto;
+        height: auto; } }
+
+.photo-box {
+  text-align: center;
+  margin-bottom: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  @media (min-width: 758px) {
+    .photo-box {
+      flex-direction: row-reverse;
+      margin-bottom: 5vw; } }
+  .photo-box img {
+    width: 85%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 2.5vw; }
+    @media (min-width: 758px) {
+      .photo-box img {
+        width: 40%;
+        height: auto;
+        margin-bottom: 0;
+        margin-left: 5vw; } }
+  .photo-box p {
+    width: 85%; }
+    @media (min-width: 758px) {
+      .photo-box p {
+        width: 60%; } }
+  @media (min-width: 758px) {
+    .photo-box {
+      display: flex;
+      flex-direction: row-reverse; } }
+
+.main-content {
+  margin: auto; }
+  @media (min-width: 1024px) {
+    .main-content {
+      max-width: 1200px; } }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px; }
+  @media (min-width: 758px) {
+    main {
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap; } }
+  main h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 10vw;
+    margin-bottom: 10vw; }
+    @media (min-width: 758px) {
+      main h2 {
+        margin-top: 5vw;
+        margin-bottom: 5vw; } }
+    @media (min-width: 1024px) {
+      main h2 {
+        margin: 2em 0; } }
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10vw; }
+  @media (min-width: 758px) {
+    article {
+      width: 45%; } }
+  @media (min-width: 1024px) {
+    article {
+      width: 30%; } }
+  article img {
+    width: 90%;
+    height: auto;
+    margin-bottom: 2.5vw; }
+  article h3 {
+    margin-bottom: 0.8333333333vw; }
+  article p {
+    width: 80%; }
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: lightgrey; }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  @media (min-width: 1024px) {
+    footer {
+      max-width: 1200px; } }
+  footer h2 {
+    margin-top: 10vw;
+    margin-bottom: 10vw; }
+    @media (min-width: 758px) {
+      footer h2 {
+        margin-top: 5vw;
+        margin-bottom: 5vw; } }
+    @media (min-width: 1024px) {
+      footer h2 {
+        margin-top: 2em;
+        margin-bottom: 1.5em; } }
+  footer p {
+    width: 80%; }
+    @media (min-width: 758px) {
+      footer p {
+        width: 55%; } }
+    @media (min-width: 1024px) {
+      footer p {
+        width: 40%; } }
+  footer nav {
+    width: 80%;
+    border-top: black solid 1px;
+    padding-top: 5vw;
+    margin-bottom: 5vw;
+    display: flex;
+    justify-content: space-between; }
+    @media (min-width: 758px) {
+      footer nav li {
+        margin-left: 5vw; }
+      footer nav .auto-right {
+        margin-right: auto;
+        margin-left: 0; }
+      footer nav .mobile-hide {
+        display: none; } }
+    @media (min-width: 1024px) {
+      footer nav {
+        padding-top: 2em;
+        margin-bottom: 2em;
+        width: 100%; } }
+    footer nav .toggle {
+      display: none; }
+      @media (min-width: 758px) {
+        footer nav .toggle {
+          display: inline-block; } }
+
+.contact {
+  margin-top: 5vw;
+  margin-bottom: 5vw; }
+  .contact p {
+    text-align: center;
+    width: 100%; }
+  .contact span {
+    font-weight: bold; }
+
+/*# sourceMappingURL=master.css.map */
